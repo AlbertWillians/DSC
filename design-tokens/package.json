@@ -1,0 +1,14 @@
+{
+	"name": "@albert/dsc-design-tokens",
+	"version": "0.1.0",
+	"description": "Biblioteca de Design Tokens para o Curso de Design System in Code da Meiuca",
+	"main": "src/index.js",
+	"scripts": {
+		"build": "node src/index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"style-dictionary": "^3.7.1"
+	}
+}
