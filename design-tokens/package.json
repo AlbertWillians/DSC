@@ -6,8 +6,12 @@
 	"scripts": {
 		"build": "node src/index.js"
 	},
-	"author": "",
-	"license": "ISC",
+	"author": "Albert Willians Arrebola",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AlbertWillians/DSC"
+	},
 	"dependencies": {
 		"style-dictionary": "^3.7.1"
 	}
