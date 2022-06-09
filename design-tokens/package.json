@@ -3,16 +3,20 @@
 	"version": "0.1.0",
 	"description": "Biblioteca de Design Tokens para o Curso de Design System in Code da Meiuca",
 	"main": "src/index.js",
-	"scripts": {
-		"build": "node src/index.js"
-	},
 	"author": "Albert Willians Arrebola",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/AlbertWillians/DSC"
 	},
-	"dependencies": {
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "node src/index.js",
+		"build:dev": "rm -rf dist && node src/index.js"
+	},
+	"devDependencies": {
 		"style-dictionary": "^3.7.1"
 	}
 }
