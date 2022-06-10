@@ -1,0 +1,23 @@
+{
+	"name": "albert-willians-assets",
+	"version": "0.1.0",
+	"description": "Biblioteca de Assets para o Curso de Design System in Code da Meiuca",
+	"main": "index.js",
+	"author": "Albert Willians Arrebola",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AlbertWillians/DSC"
+	},
+	"files": [
+		"dist",
+		"src/assets"
+	],
+	"scripts": {
+		"build": "rimraf dist && node src/build.js"
+	},
+	"devDependencies": {
+		"fs-extra": "^10.1.0",
+		"rimraf": "^3.0.2"
+	}
+}
