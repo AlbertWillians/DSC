@@ -1,6 +1,6 @@
 {
-	"name": "@albert/dsc-design-tokens",
-	"version": "0.1.0",
+	"name": "albert-willians-design-tokens",
+	"version": "0.1.01",
 	"description": "Biblioteca de Design Tokens para o Curso de Design System in Code da Meiuca",
 	"main": "src/index.js",
 	"author": "Albert Willians Arrebola",

@@ -17,6 +17,14 @@ function getBrands() {
 			theme: '',
 			mode: '',
 		},
+		{
+			source: path.resolve('tokens', 'motions', '**', '*.json'),
+			dest: '',
+			filename: 'motions',
+			brand: '',
+			theme: '',
+			mode: '',
+		},
 	];
 
 	getDirectories(path.resolve('tokens', 'brands')).map((brand) => {
