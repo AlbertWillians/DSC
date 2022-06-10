@@ -1,6 +1,6 @@
 {
 	"name": "albert-willians-design-tokens",
-	"version": "0.1.01",
+	"version": "0.1.02",
 	"description": "Biblioteca de Design Tokens para o Curso de Design System in Code da Meiuca",
 	"main": "src/index.js",
 	"author": "Albert Willians Arrebola",
