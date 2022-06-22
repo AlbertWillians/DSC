@@ -65,7 +65,7 @@ Select.args = {
 
 Select.argTypes = {
 	value: {
-		name: 'Value',
+		name: 'value',
 		description: 'Define o valor do input',
 		table: {
 			category: 'Custom Inputs',
@@ -74,7 +74,7 @@ Select.argTypes = {
 		},
 	},
 	label: {
-		name: 'Label',
+		name: 'label',
 		description: 'Define a label do input',
 		table: {
 			category: 'Custom Inputs',
@@ -83,7 +83,7 @@ Select.argTypes = {
 		},
 	},
 	placeholder: {
-		name: 'Placeholder',
+		name: 'placeholder',
 		description: 'Define o placeholder do input',
 		table: {
 			category: 'Custom Inputs',
@@ -92,7 +92,7 @@ Select.argTypes = {
 		},
 	},
 	helperText: {
-		name: 'Helper text',
+		name: 'helper text',
 		description: 'Define a mensagem do input',
 		table: {
 			category: 'Custom Inputs',
@@ -102,7 +102,7 @@ Select.argTypes = {
 	},
 
 	disabled: {
-		name: 'Disabled',
+		name: 'disabled',
 		description: 'Define se o input será desabilitado',
 		table: {
 			category: 'Modifiers',
@@ -111,7 +111,7 @@ Select.argTypes = {
 		},
 	},
 	required: {
-		name: 'Required',
+		name: 'required',
 		description: 'Define se o input será obrigatório',
 		table: {
 			category: 'Modifiers',
@@ -120,7 +120,7 @@ Select.argTypes = {
 		},
 	},
 	error: {
-		name: 'Error',
+		name: 'error',
 		description: 'Define se será exibida uma mensagem de erro',
 		table: {
 			category: 'Modifiers',
